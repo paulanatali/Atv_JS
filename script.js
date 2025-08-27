@@ -1,5 +1,7 @@
 // 1 – LISTA DE COMPRAS ------------------------
 
+console.log("=== LISTA DE COMPRAS ===");
+
 // Array dos itens da lista de compras
 const lista_compras = ["arroz", "batata", "suco", "tomates"];
 
@@ -18,6 +20,8 @@ verificarItem("tomates");
 
 // 2 - SISTEMA DE LOGIN SIMPLES ------------------------
 
+console.log("=== SISTEMA DE LOGIN SIMPLES ===");
+
 // Array do nome dos usuarios
 const usuarios = ["Natali", "Daniel", "Sabrina"];
 
@@ -35,6 +39,8 @@ login("Daniel");
 
 // 3 - FILTRAR JOGADORES DO TIME ------------------------
 
+console.log("=== FILTRAR JOGADORES DO TIME ===");
+
 // Array das idades dos jogadores
 const idades = [16, 19, 22, 15, 18, 25, 30];
 
@@ -50,6 +56,8 @@ console.log("Jogadores maiores de 18 anos: " + maiores);
 
 // 4 - TRABALHANDO COM .length ------------------------
 
+console.log("=== TRABALHANDO COM .length ===");
+
 // Array dos times de futebol 
 const times = ["Flamengo", " Palmeiras", " Vasco", " Fortaleza", " Botafogo"];
 // Mostrando os times no console
@@ -63,6 +71,8 @@ console.log("Agora, os times são: " + times);
 
 
 // 5 - Usando includes + filter ------------------------
+
+console.log("=== Usando includes + filter ===");
 
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Função para verificar se o número 7 está no array
